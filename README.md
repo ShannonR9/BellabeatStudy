@@ -216,7 +216,7 @@ ggplot(data = sleep_day, aes(x = total_minutes_asleep, y = total_time_in_bed, al
 
 ```
 
-
+![Time Asleep Vs  Time In Bed](https://github.com/ShannonR9/BellabeatStudy.Rmd/assets/160551188/0245a1cd-72c8-43e8-afbe-6897959f8098)
 
 This visualization shows us a positive relationship between time asleep vs time in bed. Bellabeat can expand on this by adding interactive features like customizing a sleep schedule, bedtime reminders, or rewards for manually entering sleep data to make tracking sleep more appealing for their users.
 
