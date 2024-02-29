@@ -238,6 +238,8 @@ ggplot(aggregated_data, aes(x = sedentary_minutes, y = total_minutes_asleep, col
 
 ```
 
+![Sleep Duration and Sedentary Time](https://github.com/ShannonR9/BellabeatStudy.Rmd/assets/160551188/b935d6bf-172f-48b7-9b50-f7a39d9a7448)
+
 Let's see the correlation coefficient for the two.
 
 ```{r results = 'hide', message = FALSE, tidy = FALSE}
