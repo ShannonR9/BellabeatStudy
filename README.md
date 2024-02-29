@@ -287,6 +287,8 @@ ggplot(aggregate(very_active_minutes ~ day_of_week, data = daily_activity, FUN =
 
 ```
 
+![Very Active Minutes vs  Day of the Week](https://github.com/ShannonR9/BellabeatStudy.Rmd/assets/160551188/70f4ac64-503a-4c8c-b680-dcccc436f341)
+
 The days where users are the most active correlate with the days that have the most steps. Tuesday, Wednesday, and Thursday are users most active days.
 
 Now lets look at what days users are the most sedentary.
@@ -300,6 +302,8 @@ ggplot(aggregate(sedentary_minutes ~ day_of_week, data = daily_activity, FUN = s
 
 
 ```
+
+![Sedentary Minutes vs  Day of the Week](https://github.com/ShannonR9/BellabeatStudy.Rmd/assets/160551188/24e73fc7-9299-4819-8ea7-451b564f5cd4)
 
 The days of the week users are the most sedentary or least active coincide with the days users take the most step, possibly indicating users do not take steps or workout outside of their normal daily routine, i.e. work, school etc.
 
