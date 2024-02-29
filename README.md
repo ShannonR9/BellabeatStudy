@@ -273,6 +273,8 @@ ggplot(aggregate(total_steps ~ day_of_week, data = daily_activity, FUN = sum), a
 
 ```
 
+![Steps vs  Day of the Week](https://github.com/ShannonR9/BellabeatStudy.Rmd/assets/160551188/225a396e-7d82-47aa-beb9-840c2d818ac3)
+
 This visualization highlights Tuesday as the day of the week showing the highest step count, followed by Wednesday and then Thursday. This could indicate users walk more during the workweek, either at work or on a commute to work.
 
 Next lets take a look at what days users were most active and most sedentary.
