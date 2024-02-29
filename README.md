@@ -204,6 +204,7 @@ merged_data <- merge(sleep_day, daily_activity)
 ggplot(data = daily_activity, aes(x = total_steps, y = calories, color = calories)) + geom_point() + geom_smooth() + labs(title = "Total Steps vs. Calories", x = "Total Steps", y = "Calories", color = "Calories")
 
 ```
+https://private-user-images.githubusercontent.com/160551188/308799006-7bc77c50-bd7b-4975-9ec5-0a7b5d27f0ee.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDkxODI2NjMsIm5iZiI6MTcwOTE4MjM2MywicGF0aCI6Ii8xNjA1NTExODgvMzA4Nzk5MDA2LTdiYzc3YzUwLWJkN2ItNDk3NS05ZWM1LTBhN2I1ZDI3ZjBlZS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIyOVQwNDUyNDNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xYThjMWE2NGI1MTA0OTk3NDczMDZiNDk0YzNhZWU4MGY4MTc0NWM3M2U0NzZhYzE2MmJmNTFlZDY0NWUwMWQyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.osCaNHe-D95aKZc9IZavPKC5O0Lfai9bhmtB5Ck2-DE
 
 This chart correlates with the summary findings from earlier, indicating the average steps per day are around 7,638. The more steps, the more calories burned. According to a study from the CDC [cdc.gov] <https://www.cdc.gov/pcd/issues/2016/pdf/16_0111.pdf> the recommended daily steps is 10,000. Users for this data fall just under that.
 
